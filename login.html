@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="icon" href="./assets/image/faveicon.ico">
+    <title>News Blog :: Login</title>
+</head>
+<body>
+    
+
+    <section class="auth-section login-section">
+    
+        <div class="container" id="container">
+            <div class="main-auth">
+                <div class="auth-inner">
+                    <div class="form-container sign-up-container">
+                        <form action="#">
+                            <h2>Create Account</h2>
+                            <span>or use your email for registration</span>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Email address</label>
+                                <input type="text" class="form-control" id="name" placeholder="Name">
+                                <p class="error" id="nameError"></p>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" placeholder="Email">
+                                <p class="error" id="emailError"></p>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" placeholder="Password">
+                                <p class="error" id="passwordError"></p>
+                            </div>
+                            
+                            <button>Sign Up</button>
+                        </form>
+                    </div>
+        
+                    <div class="form-container sign-in-container">
+                        <form action="#">
+                            <h2>Sign in</h2>
+                           
+                            <span>or use your account</span> 
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" placeholder="Email">
+                                <p class="error" id="emailError"></p>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" placeholder="Password">
+                                <p class="error" id="passwordError"></p>
+                            </div>
+                            
+                            <button>Sign In</button>
+                        </form>
+                    </div>
+        
+                    <div class="overlay-container">
+                        <div class="overlay">
+                            <div class="overlay-panel overlay-left">
+                                <h3>Welcome Back!</h3>
+                                <p>To keep connected with us please login with your personal info</p>
+                                <button class="ghost" id="signIn">Sign In</button>
+                            </div>
+                            <div class="overlay-panel overlay-right">
+                                <h3>Hello, Friend!</h3>
+                                <p>Enter your personal details and start journey with us</p>
+                                <button class="ghost" id="signUp">Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        	
+        </div>
+    
+    </section>
+
+</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</html>
